@@ -9,8 +9,8 @@ public void deleteFile(){
 }
 
 // ----------------------------------
-
 // v1.01 had a vulnerability where the return values could be ignored 
+// ----------------------------------
 
 // version 1.02
 
