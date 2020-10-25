@@ -10,8 +10,9 @@ if (loginSuccessful) {
 
 // version 1.02
 
-//above code is vulnerable to log injection.
-//use the sanitized code below to prevent injection attacks
+// above code is vulnerable to log injection.
+// use the sanitized code below to prevent injection attacks
+// link: https://wiki.sei.cmu.edu/confluence/display/java/IDS03-J.+Do+not+log+unsanitized+user+input
 
 if (loginSuccessful) {
   logger.severe("User login succeeded for: " + sanitizeUser(username));
